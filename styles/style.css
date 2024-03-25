@@ -118,7 +118,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: url('../../images/2.jpg') no-repeat;
+    background: url(../images/2.jpg) no-repeat;
     background-position: 40% 30%;
     background-size: 100%;
     border: 2px solid #252728;
