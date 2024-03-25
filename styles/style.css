@@ -167,4 +167,29 @@ footer {
     text-transform: uppercase;
 }
 
+@media only screen and (max-width: 1400px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+    aside {
+        width: 100%;
+        border-radius: 0;
+        float: none;
+        margin-bottom: 1rem;
+    }
+    aside:hover {
+        scale: unset;
+    } 
+
+
+    footer {
+        position: static;
+    }
+}
 
