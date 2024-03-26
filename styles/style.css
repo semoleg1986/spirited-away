@@ -24,6 +24,12 @@ header {
 
 header > img {
     height: 100px;
+    transition-duration: 1s;
+}
+
+header img:hover {
+    scale: 1.1;
+    transform: translateY(10px);
 }
 
 h1 {
@@ -91,6 +97,7 @@ aside article:hover{
 }
 aside article:hover>img{
     scale: 1.1;
+    transform: rotate(-10deg);
 }
 
 aside:hover {
